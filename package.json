@@ -1,5 +1,5 @@
 {
-  "name": "twitter-bot",
+  "name": "dewretsa-twitter-bot",
   "version": "1.0.0",
   "description": "twitter bot bootstrap",
   "main": "index.js",
@@ -10,12 +10,20 @@
     "start": "node index.js",
     "test": "standard && node index.js"
   },
-  "author": "",
+  "author": "dewretsa",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0",
     "twit": "^2.2.5",
     "unique-random-array": "^1.0.0",
     "unirest": "^0.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dewret/dewretsa-twitter-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dewret/dewretsa-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/Dewret/dewretsa-twitter-bot#readme"
 }
